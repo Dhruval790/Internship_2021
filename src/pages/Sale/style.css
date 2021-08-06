@@ -1,0 +1,10 @@
+.Sale{
+    background-color:var(--background-color);
+}
+.sale_table_container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: max-content;
+  }

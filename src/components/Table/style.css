@@ -1,0 +1,69 @@
+tr:hover{
+    background-color: var(--background-color);
+}
+
+.table-icon-color {
+  color: #484848;
+}
+
+.table-header {
+  font-family: PoppinsMedium, sans-serif;
+  color: #707070;
+}
+
+.table-header-separator {
+  border-color: #EEEEEE;
+}
+
+.table-cell {
+  color: #484848;
+}
+
+.table-header {
+  font-family: PoppinsMedium, sans-serif;
+  color: #707070;
+}
+
+.table-header-separator {
+  border-color: #EEEEEE;
+}
+
+.table-cell {
+  color: #484848;
+}
+
+/* =====PAGINATION============ */
+.pagination-select,
+.pagination-select option {
+  border: 2px solid #484848;
+  border-radius: 0.25rem;
+}
+
+.w-max-content {
+  width: max-content;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 23rem;
+  float: right;
+  color: #484848;
+}
+
+.pagination-chevron {
+  margin-inline: 0.5rem;
+  color: #484848;
+}
+
+@media all and (max-width: 425px) {
+  .pagination {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .pagination > form, .pagination > div  {
+    margin-top: 0.25rem;
+  }
+}

@@ -1,0 +1,94 @@
+.navbar{
+    background-color: #ffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    height: var(--navbar-height);
+    align-items: unset;
+}
+
+.navbar-brand {
+    background-color: var(--custom-grey);
+    padding: 18px ;
+}
+
+.navbar-links:hover {background-color: #FFF3CC;}
+.Navbar_active_true {background-color: #FFF3CC; border-bottom: 2px solid #FEC400;}
+
+.navbar-links {
+    display: flex;
+    height: var(--navbar-height);
+    align-items: center;
+    transition: 0.2s ease-in ;
+}
+
+.btn-outline-dark:hover{
+    background-color:var(--custom-grey);
+}
+#basic-navbar-nav {
+    justify-content: space-between;
+}
+
+@media all and (min-width: 992px) {
+    .outer-dropdown:hover .outer-dropdown-menu, .inner-dropdown:hover .inner-dropdown-menu {
+        display: block;
+    }
+
+    .outer-dropdown-menu {
+        top: 100%;
+        left: 0%;
+    }
+    
+    .inner-dropdown-menu {
+        top: 100%;
+        left: 80%;
+    }
+}
+
+.accordion-link, .dropdown-item-link {
+    color:  var(--custom-grey);
+    text-decoration: none;
+    font-weight: 200;
+    font-size: large;
+}
+
+.accordion-link:hover, .dropdown-item-link:hover {
+    color:  var(--custom-grey);
+    background-color: initial;
+}
+
+.accordion-card {
+    background-color: transparent !important;
+    border: none !important; 
+}
+
+@media (max-width: 991px) {
+    .navbar{
+        background-color: var(--custom-grey);
+        align-items: center;
+        height: unset;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color:white;
+    }
+    .Navbar__ButtonContainer > .btn{
+        width:100vw;
+    }
+    .Navbar__ButtonContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-nav {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .accordion-link, .dropdown-item-link {
+        color:white
+    }
+    .accordion-link:hover, .dropdown-item-link:hover{
+        color: white;
+    }
+    .navbar-links:hover {background-color: unset;}
+    .Navbar_active_true {background-color: unset; border-bottom: unset;}
+
+  }

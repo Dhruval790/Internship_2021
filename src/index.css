@@ -1,0 +1,20 @@
+:root {
+  --custom-grey: #484848;
+  --background-color:#EDEDED;
+  --custom-green: #29cc97;
+  --custom-yellow: #fec400;
+  --custom-pink: #fe5461;
+  --custom-blue: #4c84ff;
+  --custom-purple: #8061ef;
+  --navbar-height: 65px;
+}
+body {
+  margin: 0;
+  font-family: PoppinsRegular, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+th,
+td {
+  text-align: center;
+}

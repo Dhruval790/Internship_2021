@@ -1,0 +1,121 @@
+/* @media all and (min-width: 480px) {
+    
+} */
+
+.Login {
+    padding: 5rem 0;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.829),rgba(0, 6, 22, 0.438)),url(./marcin-jozwiak-kGoPcmpPT7c-unsplash.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.Login form {
+    margin: 0 auto;
+    width: 22rem;
+    /* max-width: 320px; */
+    /* color: white; */
+}
+.Login a {
+    text-decoration: none;
+}
+.Login ul {
+    list-style-type: none;
+    /* background-color: aliceblue; */
+    /* width: auto; */
+    color: white;
+    height: 30px;
+    border-radius: 1rem;
+}
+
+.Login form input {
+    background-color: #EDEDED;
+    color: #707070;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.Login form input:hover, .Login form input:focus {
+    background-color: #EDEDED;
+    color: #707070;
+    border-color: #EDEDED;
+    box-shadow: none !important;
+}
+
+.login-bg-form {
+    /* background-color: rgba(129, 125, 125, 0.829); */
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    /* border: 2px solid rgb(0, 6, 22); */
+}
+
+.boxboard {
+    background-color: #484848;
+    border-radius: 5px;
+    padding: 0.25rem;
+}
+
+.boxboard a {
+    color: #FFFFFF;
+}
+
+.login-form-or {
+    text-align: center;
+    position: relative;
+    margin-block: 1rem;
+}
+
+.login-form-or::before {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    background-color: #d7d2d2;
+    width: 45%;
+    height: 1px;
+}
+
+.login-form-or::after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    background-color: #d7d2d2;
+    width: 45%;
+    height: 1px;
+}
+
+.sign-in-btn {
+    padding: 2% 12.5%;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.sign-in-btn, .sign-in-btn:hover, .sign-in-btn:focus {
+    background-color: #29CC97;
+    border-color: #29CC97;
+    color: #FFFFFF;
+    box-shadow: none !important;
+}
+
+.forgot-password {
+    font-size: 0.825rem;
+    align-self: center;
+}
+
+.login-form-label {
+    margin-bottom: 0.125rem;
+    color: #484848;
+    font-size: 0.9rem;
+}
+
+.company-logo-container {
+    margin-bottom: 2rem;
+}
+
+@media all and (max-width: 361px) {
+    .Login form {
+        width: 95%;
+    }   
+}

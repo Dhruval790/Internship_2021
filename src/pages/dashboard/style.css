@@ -1,0 +1,14 @@
+.dashboard{
+    background-color: var(--background-color);
+}
+
+.dashboard_table_container, .chart_container{
+    padding: 5px 6px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.dashboard-card-title {
+    color: #484848;
+    font-family: PoppinsMedium, sans-serif;
+  }

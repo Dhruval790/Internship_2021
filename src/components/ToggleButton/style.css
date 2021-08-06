@@ -1,0 +1,27 @@
+/* tooo much !important here ,as we are using the toggle button form reactBootrap,
+   so we need to override the properties...
+*/
+
+.toggle_active_button_active {
+  background-color: var(--custom-green) !important;
+  color: white !important;
+}
+.toggle_active_button_inactive {
+  background-color: white !important;
+  color: var(--custom-green) !important;
+}
+.toggle_inactive_button_inactive {
+  background-color: var(--custom-pink) !important;
+  color: white !important;
+}
+.toggle_inactive_button_active {
+  background-color: white !important;
+  color: var(--custom-pink) !important;
+}
+.toggle_inactive_button_active,
+.toggle_inactive_button_inactive,
+.toggle_active_button_inactive,
+.toggle_active_button_active {
+  border: none !important;
+  outline: none !important;
+}

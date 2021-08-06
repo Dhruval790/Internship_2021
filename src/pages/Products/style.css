@@ -1,0 +1,36 @@
+.products {
+  background-color: var(--background-color);
+}
+.btn_grp {
+  display: flex;
+  justify-content: space-around;
+}
+.AddNewProductBtn,
+.AddNewProductBtn:hover,
+.AddNewProductBtn:focus {
+  background-color: var(--custom-green);
+}
+.AddSupplierBtn, 
+.AddSupplierBtn:hover,
+.AddSupplierBtn:focus {
+  background-color: var(--custom-blue);
+}
+
+.product_barchart {
+  height: 75%;
+}
+
+@media all and (max-width: 940px) {
+  .btn_grp {
+    flex-direction: column;
+  }
+  .AddButtonGroup_div {
+    margin-top: 0.5rem;
+  }
+}
+
+@media all and (max-width: 897px) {
+  .product_barchart {
+    height: 80%;
+  }
+}

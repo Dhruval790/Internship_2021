@@ -1,0 +1,115 @@
+.line-chart-modal-body {
+    width: 20rem;
+}
+
+.line-chart-dropdown > .dropdown-menu {
+    max-height: 6rem;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #707070 #A0A0A0;
+}
+
+
+.line-chart-dropdown > .dropdown-menu::-webkit-scrollbar {
+    width: 2px;
+}
+
+.line-chart-dropdown > .dropdown-menu::-webkit-scrollbar-track {
+    background-color: #A0A0A0;
+}
+
+.line-chart-dropdown > .dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: #707070;
+}
+
+.line-chart-add-btn, line-chart-add-btn:disabled {
+    padding: 2% 6.5%;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.line-chart-add-btn, .line-chart-add-btn:hover,
+.line-chart-add-btn:focus, .line-chart-add-btn:disabled {
+    background-color: #29CC97;
+    border-color: #29CC97;
+    color: #FFFFFF;
+    box-shadow: none !important;
+} 
+
+.line-chart-modal-body-overflow {
+    max-height: 10rem;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #707070 #A0A0A0;
+}
+
+.line-chart-modal-body-overflow::-webkit-scrollbar {
+    width: 2px;
+}
+
+.line-chart-modal-body-overflow::-webkit-scrollbar-track {
+    background-color: #A0A0A0;
+}
+
+.line-chart-modal-body-overflow::-webkit-scrollbar-thumb {
+    background-color: #707070;
+}
+
+.line-chart-modal-close-icon-wrapper {
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.line-chart-analysis-modal .modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.line-chart-analysis-modal .modal-content .modal-dialog {
+    background-color: #FFFFFF;
+    border-radius: 0.3rem;
+}
+
+.line-chart-custom-settings-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.line-chart-wrapper {
+    margin-top: 1rem;
+    height: 30rem;
+}
+
+.line-chart-card-container {
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+@media all and (max-width: 576px) {
+    .line-chart-modal-body {
+        margin-inline: auto;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .line-chart-modal-body {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .line-chart-analysis-modal > .modal-dialog, 
+    .line-chart-analysis-modal > .modal-dialog .modal-content  {
+        width: 100%;
+    }
+
+    .line-chart-analysis-modal > .modal-dialog .modal-content .modal-dialog {
+        margin: 0;
+    }
+}
+

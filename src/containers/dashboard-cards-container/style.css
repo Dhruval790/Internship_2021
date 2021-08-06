@@ -1,0 +1,10 @@
+.card_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: rgb(129, 129, 129) 1px solid;
+  padding: 8px;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}

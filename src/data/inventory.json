@@ -1,0 +1,649 @@
+{
+  "inventory": [
+    {
+      "id": "0520ae56-b0f4-4e83-a255-63d3a19be37a",
+      "name": "Maggi",
+      "company": "Nestle",
+      "current_inventory": 25,
+      "incoming_inventory": 100,
+      "purchase_price": 3,
+      "min_selling_price": 5,
+      "supplier_name": "ABC Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "0520ae56-b0f4-4e83-f255-63d3a19be37b",
+      "name": "Nescafe",
+      "company": "Nestle",
+      "current_inventory": 15,
+      "incoming_inventory": 50,
+      "purchase_price": 7,
+      "min_selling_price": 10,
+      "supplier_name": "ABC Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "1520ae56-b0f4-4e83-a255-63d3a19be37b",
+      "name": "ParleG",
+      "company": "Parle",
+      "current_inventory": 20,
+      "incoming_inventory": 25,
+      "purchase_price": 30,
+      "min_selling_price": 50,
+      "supplier_name": "XYZ Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "0520ae96-b0f4-4e83-a255-63d3a19be37b",
+      "name": "Parle Bourbon",
+      "company": "Parle",
+      "current_inventory": 105,
+      "incoming_inventory": 5,
+      "purchase_price": 34,
+      "min_selling_price": 58,
+      "supplier_name": "PQR Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "a36e41d3-169b-4c69-beca-6afd28e80ab7",
+      "name": "PT-M95 Handheld Label Printer",
+      "company": "Brother",
+      "current_inventory": 100,
+      "incoming_inventory": 50,
+      "purchase_price": 19.99,
+      "min_selling_price": 87.99,
+      "supplier_name": "Staples Inc.",
+      "active": false
+    },
+    {
+      "id": "a36e41d3-169b-4c69-beca-6afd28e80ac7",
+      "name": "Panasonic PT-M95 Handheld Camera",
+      "company": "Panasonic",
+      "current_inventory": 10,
+      "incoming_inventory": 35,
+      "purchase_price": 24.99,
+      "min_selling_price": 67.99,
+      "supplier_name": "Hikaru Inc.",
+      "active": false
+    },
+    {
+      "id": "b46e41d3-169b-4c69-beca-6afd28280ab7",
+      "name": "Nokia A-95 Smartphone",
+      "company": "Nokia",
+      "current_inventory": 12,
+      "incoming_inventory": 53,
+      "purchase_price": 24.45,
+      "min_selling_price": 67.09,
+      "supplier_name": "Carlson Inc.",
+      "active": false
+    },
+    {
+      "id": "b46e41d3-169b-4c69-beca-6afd28280ac7",
+      "name": "Nokia A-5 Smartphone",
+      "company": "Nokia",
+      "current_inventory": 10,
+      "incoming_inventory": 33,
+      "purchase_price": 24.50,
+      "min_selling_price": 70.00,
+      "supplier_name": "Carlson Inc.",
+      "active": false
+    },
+    {
+      "id": "b36e41d3-169b-4c69-beca-6afd28e80ab9",
+      "name": "Cannon CT-M75 Laser Printer",
+      "company": "Cannon",
+      "current_inventory": 10,
+      "incoming_inventory": 30,
+      "purchase_price": 4.99,
+      "min_selling_price": 17.99,
+      "supplier_name": "Cannon Inc.",
+      "active": false
+    },
+    {
+      "id": "0520ae56-b0f4-4e83-a255-63d3a19be37a",
+      "name": "Maggi",
+      "company": "Nestle",
+      "current_inventory": 25,
+      "incoming_inventory": 100,
+      "purchase_price": 3,
+      "min_selling_price": 5,
+      "supplier_name": "ABC Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "0520ae56-b0f4-4e83-f255-63d3a19be37b",
+      "name": "Nescafe",
+      "company": "Nestle",
+      "current_inventory": 15,
+      "incoming_inventory": 50,
+      "purchase_price": 7,
+      "min_selling_price": 10,
+      "supplier_name": "ABC Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "1520ae56-b0f4-4e83-a255-63d3a19be37b",
+      "name": "ParleG",
+      "company": "Parle",
+      "current_inventory": 20,
+      "incoming_inventory": 25,
+      "purchase_price": 30,
+      "min_selling_price": 50,
+      "supplier_name": "XYZ Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "0520ae96-b0f4-4e83-a255-63d3a19be37b",
+      "name": "Parle Bourbon",
+      "company": "Parle",
+      "current_inventory": 105,
+      "incoming_inventory": 5,
+      "purchase_price": 34,
+      "min_selling_price": 58,
+      "supplier_name": "PQR Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "a36e41d3-169b-4c69-beca-6afd28e80ab7",
+      "name": "PT-M95 Handheld Label Printer",
+      "company": "Brother",
+      "current_inventory": 100,
+      "incoming_inventory": 50,
+      "purchase_price": 19.99,
+      "min_selling_price": 87.99,
+      "supplier_name": "Staples Inc.",
+      "active": false
+    },
+    {
+      "id": "a36e41d3-169b-4c69-beca-6afd28e80ac7",
+      "name": "Panasonic PT-M95 Handheld Camera",
+      "company": "Panasonic",
+      "current_inventory": 10,
+      "incoming_inventory": 35,
+      "purchase_price": 24.99,
+      "min_selling_price": 67.99,
+      "supplier_name": "Hikaru Inc.",
+      "active": false
+    },
+    {
+      "id": "b46e41d3-169b-4c69-beca-6afd28280ab7",
+      "name": "Nokia A-95 Smartphone",
+      "company": "Nokia",
+      "current_inventory": 12,
+      "incoming_inventory": 53,
+      "purchase_price": 24.45,
+      "min_selling_price": 67.09,
+      "supplier_name": "Carlson Inc.",
+      "active": false
+    },
+    {
+      "id": "b46e41d3-169b-4c69-beca-6afd28280ac7",
+      "name": "Nokia A-5 Smartphone",
+      "company": "Nokia",
+      "current_inventory": 10,
+      "incoming_inventory": 33,
+      "purchase_price": 24.50,
+      "min_selling_price": 70.00,
+      "supplier_name": "Carlson Inc.",
+      "active": false
+    },
+    {
+      "id": "b36e41d3-169b-4c69-beca-6afd28e80ab9",
+      "name": "Cannon CT-M75 Laser Printer",
+      "company": "Cannon",
+      "current_inventory": 10,
+      "incoming_inventory": 30,
+      "purchase_price": 4.99,
+      "min_selling_price": 17.99,
+      "supplier_name": "Cannon Inc.",
+      "active": false
+    },
+    {
+      "id": "0520ae56-b0f4-4e83-a255-63d3a19be37a",
+      "name": "Maggi",
+      "company": "Nestle",
+      "current_inventory": 25,
+      "incoming_inventory": 100,
+      "purchase_price": 3,
+      "min_selling_price": 5,
+      "supplier_name": "ABC Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "0520ae56-b0f4-4e83-f255-63d3a19be37b",
+      "name": "Nescafe",
+      "company": "Nestle",
+      "current_inventory": 15,
+      "incoming_inventory": 50,
+      "purchase_price": 7,
+      "min_selling_price": 10,
+      "supplier_name": "ABC Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "1520ae56-b0f4-4e83-a255-63d3a19be37b",
+      "name": "ParleG",
+      "company": "Parle",
+      "current_inventory": 20,
+      "incoming_inventory": 25,
+      "purchase_price": 30,
+      "min_selling_price": 50,
+      "supplier_name": "XYZ Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "0520ae96-b0f4-4e83-a255-63d3a19be37b",
+      "name": "Parle Bourbon",
+      "company": "Parle",
+      "current_inventory": 105,
+      "incoming_inventory": 5,
+      "purchase_price": 34,
+      "min_selling_price": 58,
+      "supplier_name": "PQR Food Supplies Inc.",
+      "active": true
+    },
+    {
+      "id": "a36e41d3-169b-4c69-beca-6afd28e80ab7",
+      "name": "PT-M95 Handheld Label Printer",
+      "company": "Brother",
+      "current_inventory": 100,
+      "incoming_inventory": 50,
+      "purchase_price": 19.99,
+      "min_selling_price": 87.99,
+      "supplier_name": "Staples Inc.",
+      "active": false
+    },
+    {
+      "id": "a36e41d3-169b-4c69-beca-6afd28e80ac7",
+      "name": "Panasonic PT-M95 Handheld Camera",
+      "company": "Panasonic",
+      "current_inventory": 10,
+      "incoming_inventory": 35,
+      "purchase_price": 24.99,
+      "min_selling_price": 67.99,
+      "supplier_name": "Hikaru Inc.",
+      "active": false
+    },
+    {
+      "id": "b46e41d3-169b-4c69-beca-6afd28280ab7",
+      "name": "Nokia A-95 Smartphone",
+      "company": "Nokia",
+      "current_inventory": 12,
+      "incoming_inventory": 53,
+      "purchase_price": 24.45,
+      "min_selling_price": 67.09,
+      "supplier_name": "Carlson Inc.",
+      "active": false
+    },
+    {
+      "id": "b46e41d3-169b-4c69-beca-6afd28280ac7",
+      "name": "Nokia A-5 Smartphone",
+      "company": "Nokia",
+      "current_inventory": 10,
+      "incoming_inventory": 33,
+      "purchase_price": 24.50,
+      "min_selling_price": 70.00,
+      "supplier_name": "Carlson Inc.",
+      "active": false
+    },
+    {
+      "id": "b36e41d3-169b-4c69-beca-6afd28e80ab9",
+      "name": "Cannon CT-M75 Laser Printer",
+      "company": "Cannon",
+      "current_inventory": 10,
+      "incoming_inventory": 30,
+      "purchase_price": 4.99,
+      "min_selling_price": 17.99,
+      "supplier_name": "Cannon Inc.",
+      "active": false
+    }
+  ],
+  "purchase": [
+    {
+      "name":"Nokia A-5 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": true,
+      "date": "2019-03-25"
+    },
+    {
+      "name":"Motorola M-5 Smartphone",
+      "supplier_name": "XYZ Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": true,
+      "date": "2019-03-2"
+    },
+    {
+      "name":"Samsung G-5 Smartphone",
+      "supplier_name": "PQR Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": true,
+      "date": "2019-03-10"
+    },
+    {
+      "name":"Witch A-5 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": true,
+      "date": "2019-03-20"
+    },
+    {
+      "name":"DFG A-5 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": true,
+      "date": "2019-03-30"
+    },
+    {
+      "name":"Nokia A-5 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": true,
+      "date": "2019-04-25"
+    },
+    {
+      "name":"Motorola M-5 Smartphone",
+      "supplier_name": "XYZ Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": true,
+      "date": "2019-04-25"
+    },
+    {
+      "name":"Samsung G-5 Smartphone",
+      "supplier_name": "PQR Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": true,
+      "date": "2019-05-25"
+    },
+    {
+      "name":"Nokia A-5 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": true,
+      "date": "2019-05-25"
+    },
+    {
+      "name":"Nokia A-5 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": true,
+      "date": "2019-05-25"
+    },
+    {
+      "name":"Lava L-5 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": false,
+      "date": "2019-09-25"
+    },
+    {
+      "name":"Micromax M-5 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": false,
+      "date": "2019-09-25"
+    },
+    {
+      "name":"Lava L-15 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": false,
+      "date": "2019-09-25"
+    },
+    {
+      "name":"Micromax M-15 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": false,
+      "date": "2019-11-25"
+    },
+    {
+      "name":"Lava L-25 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": false,
+      "date": "2019-11-25"
+    },
+    {
+      "name":"Micromax M-25 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": false,
+      "date": "2019-12-25"
+    },
+    {
+      "name":"Micromax M-15 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": false,
+      "date": "2020-09-11"
+    },
+    {
+      "name":"Lava L-25 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": false,
+      "date": "2020-11-25"
+    },
+    {
+      "name":"Micromax M-25 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": false,
+      "date": "2021-12-25"
+    },
+    {
+      "name":"Micromax M-25 Smartphone",
+      "supplier_name": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "received": false,
+      "date": "2021-07-3"
+    }
+  ],
+  "sale": [
+    {
+      "name":"Nokia A-5 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": true,
+      "date": "2019-03-25"
+    },
+    {
+      "name":"Motorola M-5 Smartphone",
+      "sold_to": "XYZ Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": true,
+      "date": "2019-03-2"
+    },
+    {
+      "name":"Samsung G-5 Smartphone",
+      "sold_to": "PQR Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": true,
+      "date": "2019-03-10"
+    },
+    {
+      "name":"Witch A-5 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": true,
+      "date": "2019-03-20"
+    },
+    {
+      "name":"DFG A-5 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": true,
+      "date": "2019-03-30"
+    },
+    {
+      "name":"Nokia A-5 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": true,
+      "date": "2019-04-25"
+    },
+    {
+      "name":"Motorola M-5 Smartphone",
+      "sold_to": "XYZ Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": true,
+      "date": "2019-04-25"
+    },
+    {
+      "name":"Samsung G-5 Smartphone",
+      "sold_to": "PQR Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": true,
+      "date": "2019-05-25"
+    },
+    {
+      "name":"Nokia A-5 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": true,
+      "date": "2019-05-25"
+    },
+    {
+      "name":"Nokia A-5 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": true,
+      "date": "2019-05-25"
+    },
+    {
+      "name":"Lava L-5 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": false,
+      "date": "2019-09-25"
+    },
+    {
+      "name":"Micromax M-5 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": false,
+      "date": "2019-09-25"
+    },
+    {
+      "name":"Lava L-15 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": false,
+      "date": "2019-09-25"
+    },
+    {
+      "name":"Micromax M-15 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": false,
+      "date": "2019-11-25"
+    },
+    {
+      "name":"Lava L-25 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": false,
+      "date": "2019-11-25"
+    },
+    {
+      "name":"Micromax M-25 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": false,
+      "date": "2019-12-25"
+    },
+    {
+      "name":"Micromax M-15 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": false,
+      "date": "2020-09-11"
+    },
+    {
+      "name":"Lava L-25 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": false,
+      "date": "2020-11-25"
+    },
+    {
+      "name":"Micromax M-25 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": false,
+      "date": "2021-12-25"
+    },
+    {
+      "name":"Micromax M-25 Smartphone",
+      "sold_to": "ABC Electronic Inc.",
+      "purchase_price": 5.45,
+      "sale_price": 5.45,
+      "delivered": false,
+      "date": "2021-07-10"
+    }
+  ],
+  "products":[
+    {
+      "product_name":"ABC company India",
+      "manufacturer":"XYZ nestle",
+      "supplier_name":"Carlson Inc.",
+      "active": false
+    },
+    {
+      "product_name":"ABC company India",
+      "manufacturer":"XYZ nestle",
+      "supplier_name":"Carlson Inc.",
+      "active": false
+    },
+    {
+      "product_name":"ABC company India",
+      "manufacturer":"XYZ nestle",
+      "supplier_name":"Carlson Inc.",
+      "active": true
+    },
+    {
+      "product_name":"ABC company India",
+      "manufacturer":"XYZ nestle",
+      "supplier_name":"Carlson Inc.",
+      "active": true
+    },
+    {
+      "product_name":"ABC company India",
+      "manufacturer":"XYZ nestle",
+      "supplier_name":"Carlson Inc.",
+      "active": false
+    },
+    {
+      "product_name":"QWERTY company India",
+      "manufacturer":"XYZ nestle",
+      "supplier_name":"Carlson Inc.",
+      "active": false
+    },
+    {
+      "product_name":"ABC company India",
+      "manufacturer":"XYZ nestle",
+      "supplier_name":"Carlson Inc.",
+      "active": true
+    }
+  ]
+}

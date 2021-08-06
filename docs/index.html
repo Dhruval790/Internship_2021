@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Home</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Home</h1>
+
+    
+
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article><h1>Distribution Management System</h1>
+<p>A multi-tenant system where a distribution company can track a variety of things that they do on a daily basis.</p>
+<h1>Structure &amp; Directories</h1>
+<p>Our App basically have three types of components named <strong>component</strong> which can be defined probably as the smallest reusable components being utilized or used by other two types,<strong>containers</strong> are the components that utilizes the the first type of components and the last one are <strong>Page</strong> components, that <em>mostly</em> use the component of other two types.</p>
+<ol>
+<li>
+<p><strong>Components :</strong></p>
+<p>contains all the components that are being utilized by one or more containers or pages present in the <code>src/containers</code> and <code>src/pages</code>.</p>
+</li>
+<li>
+<p><strong>Containers :</strong></p>
+<p>This has the components which utilizes components and will itself get utilized by the pages' component</p>
+</li>
+<li>
+<p><strong>Contexts :</strong>
+It currently has only user.js. Many components (for e.g. Navbar component) of the App , need to know whether the user is logged in , is it authorized ?, if yes then whats the access-token of the logged in user. This user context will help the components to get the required information.</p>
+<p>Also, this solves the problem of prop drilling</p>
+</li>
+<li>
+<p><strong>Data :</strong>
+contains the pseudo data for some of the components. This data gets utilized as an API endpoint, by using <strong>JSON-SERVER</strong>.</p>
+<p>To let the component utilise the the data as an response from pseudo API, we need to run JSON-SERVER on port number <code>3001</code>*.</p>
+<pre class="prettyprint source"><code>json-server --watch ./src/data/inventory.json --port 3001
+</code></pre>
+<p>* 3001: Because by default the react app will run on <code>localhost:3000</code>,if it is not being utilized by some other app and the value <code>3001</code> is hardcoded in the components which receives JSON-SERVER's response.</p>
+</li>
+<li>
+<p><strong>Helper :</strong>
+contains <code>\charts</code>, which have Bar, line and Pie(doughnut) charts. Which is being utilized by
+<code>/src/pages/dashboard</code>,
+<code>/src/pages/Purchase</code>,
+<code>/src/pages/Sale</code>,
+<code>/src/pages/Products</code></p>
+</li>
+<li>
+<p><strong>Pages :</strong>
+These are the main fully visible components of the build version of the app, which utilizes the components &amp; containers.</p>
+</li>
+<li>
+<p><strong>Routes :</strong>
+contains  <code>ProtectedRoute.js</code>, which protects the required components from unauthenticated users, that means ,unauthenticated users can not access those components.</p>
+</li>
+</ol>
+<details>
+<summary>Structure Tree</summary>
+<pre class="prettyprint source"><code>├───build (after build)
+├───package.json
+├───README.md
+├───public
+│   └───assets
+│       ├───fonts
+│       │   └───Poppins
+│       ├───icons
+│       └───images
+│           └───features
+└───src
+    ├───components
+    │   ├───AddForm
+    │   ├───Carousel
+    │   ├───Carousels
+    │   ├───Dashboard-Card
+    │   ├───DownTrend
+    │   ├───Dropdown-Custom
+    │   ├───FeatureCard
+    │   ├───GoogleIcon
+    │   ├───Login-btn
+    │   ├───Logout-btn
+    │   ├───PricingCard
+    │   ├───Table
+    │   ├───ToggleButton
+    │   └───UpTrend
+    ├───containers
+    │   ├───dashboard-cards-container
+    │   ├───Features
+    │   ├───Footer
+    │   ├───LineChartModal
+    │   ├───Login
+    │   ├───Modal
+    │   ├───Navbar
+    │   ├───Pricing
+    │   ├───search-table-toggle
+    │   └───SignUp
+    ├───contexts
+    ├───data
+    ├───helper
+    │   └───charts
+    ├───pages
+    │   ├───Channels
+    │   ├───dashboard
+    │   ├───Details
+    │   ├───Edit
+    │   ├───Expenses
+    │   ├───Inventory
+    │   ├───LandingPage
+    │   ├───Login
+    │   ├───Products
+    │   ├───Purchase
+    │   ├───Sale
+    │   ├───SignUp
+    │   ├───Suppliers
+    │   ├───To-be-purchased
+    │   └───Tracking
+    └───routes
+
+</code></pre>
+</details></article>
+    </section>
+
+
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#data">data</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.7</a> on Tue Jul 13 2021 18:00:01 GMT+0530 (India Standard Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

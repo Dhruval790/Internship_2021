@@ -1,0 +1,41 @@
+.Main__Top__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+}
+.DashboardCard__TitleChart_Container {
+  display: flex;
+  flex-direction: column;
+}
+.DashboardCard__Number_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  padding: 0px 5px;
+}
+.DashboardCard__Number_Container_inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DashboardCard_graph_icon {
+  margin-bottom: 6px;
+}
+.DashboardCard__Title {
+  padding: 25px;
+  justify-content: space-between;
+}
+
+/*  break point === 1125px */
+@media (max-width: 1125px) {
+  .Main__Top__card {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
+  }
+}

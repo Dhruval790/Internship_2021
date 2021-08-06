@@ -1,0 +1,32 @@
+.AddForm form input, .AddForm-dropdown .dropdown-toggle, .AddForm-dropdown .dropdown-menu, .AddForm-dropdown .dropdown-item {
+    background-color: #EDEDED !important;
+    color: #707070 !important;
+    border: none;
+    border-radius: 5px;
+}
+
+.AddForm form input, .AddForm form input:placeholder-shown, .AddForm form input {
+    font-size: 0.8rem;
+}
+
+.AddForm form input:hover, .AddForm form input:focus {
+    background-color: #EDEDED !important;
+    color: #707070;
+    border-color: #EDEDED;
+    box-shadow: none !important;
+}
+
+.close{
+    background: none;
+    outline: none;
+    border: none;
+}
+.addform-add-btn{
+    padding: 2% 2.5%;
+    border-radius: 5px;
+}
+.addform-add-btn, .addform-add-btn:hover, .addform-add-btn:focus {
+    background-color: var(--custom-green);
+    color: #FFFFFF;
+    box-shadow: none !important;
+}

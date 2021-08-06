@@ -1,0 +1,108 @@
+.SignUp form input, .signup-dropdown .dropdown-toggle, .signup-dropdown .dropdown-menu, .signup-dropdown .dropdown-item {
+    background-color: #EDEDED !important;
+    color: #707070 !important;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-dropdown .dropdown-toggle::after {
+    color: #484848;
+    margin-left: 1rem;
+}
+
+.SignUp form input, .SignUp form input:placeholder-shown, .SignUp form input, .signup-dropdown .dropdown-toggle, .signup-dropdown .dropdown-item {
+    font-size: 0.8rem;
+}
+
+.SignUp form input:hover, .SignUp form input:focus, .signup-dropdown .dropdown-toggle:hover, .signup-dropdown .dropdown-toggle:focus, .signup-dropdown .dropdown-menu:hover, .signup-dropdown .dropdown-menu:focus, .signup-dropdown .dropdown-item:hover, .signup-dropdown .dropdown-item:focus, .signup-dropdown .dropdown-item:active {
+    background-color: #EDEDED !important;
+    color: #707070;
+    border-color: #EDEDED;
+    box-shadow: none !important;
+}
+
+.signup-dropdown-toggle::after {
+    color: #484848;
+}
+
+.SignUp a {
+    text-decoration: none;
+}
+
+.SignUp ul {
+    list-style-type: none;
+    /* background-color: aliceblue; */
+    /* width: auto; */
+    height: 30px;
+    border-radius: 1rem;
+}
+
+.bg-form {
+    border-radius: 0.5rem;
+}
+
+.spinner-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.signup-aside-bar {
+    background-color: #484848;
+    width: 25%;
+    position: relative;
+}
+
+.signup-aside-bar-text {
+    margin-left: 15%;
+    padding: 5rem 0;
+    font-family: PoppinsMedium;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    width: 90%;
+}
+
+.signup-aside-bar-img {
+    position: absolute;
+    left: 20%;
+    bottom: 10%;
+    width: 24rem;
+    height: 20rem;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@media all and (min-width: 992px) {
+    .SignUp {
+        margin-left: 5rem;
+        padding: 5rem 0;
+        width: 75%;
+    }
+
+    .SignUp form {
+        margin: 0 auto;
+        width: 75%;
+        /* max-width: 320px; */
+        /* color: white; */
+    }
+}
+
+@media all and (max-width: 992px) {
+    .SignUp {
+        margin-inline: auto;
+        padding: 5rem 0;
+        width: 90%;
+    }
+}
